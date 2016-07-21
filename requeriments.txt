@@ -1,0 +1,11 @@
+Django==1.9.7
+django-crispy-forms==1.6.0
+feedparser==5.2.1
+numpy==1.11.1
+pandas==0.18.1
+psycopg2==2.6.2
+pytz==2016.4
+PyXB==1.2.4
+requests==2.10.0
+six==1.10.0
+XlsxWriter==0.9.3

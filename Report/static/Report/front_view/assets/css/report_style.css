@@ -1,0 +1,28 @@
+body{
+    background-color: #0f0f0f;
+}
+
+h1,h2,h3,h4,h5,h6,th,td {
+    color: white;
+}
+
+.bound_box{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&0.56+0,0+100;Blue+to+Transparent */
+    background: -moz-linear-gradient(top, rgba(30,87,153,0.56) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(30,87,153,0.56) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(30,87,153,0.56) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f1e5799', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-sep{
+    margin-bottom: 2em;
+}
+
+header{
+    padding-left: 30%;
+    margin-top: 2em;
+    padding-bottom: 2em;
+}

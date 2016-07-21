@@ -1,0 +1,92 @@
+{% load staticfiles %}
+<!DOCTYPE HTML>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="{% static 'Report/bootstrap/css/bootstrap.css' %}">
+        <link rel="stylesheet" href="{% static 'Report/front_view/assets/css/report_style.css' %}">
+        <script src="{% static 'Report/bootstrap/js/jquery.min.js'%}"></script>
+        <script src="{% static 'Report/bootstrap/js/bootstrap.js'%}"></script>
+        <script>
+                    $(document).ready(function(){
+                        if("{{ net_status }}" == "1") {
+                            $("#success-message").fadeIn(3000).delay(5000).fadeOut(3000);
+                        }else{
+                            if( "{{ net_status }}" == "2"){
+                                $("#fail-message").fadeIn(3000).delay(20000).fadeOut(3000);
+                            }
+                        }
+                    });
+        </script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <header>
+                    <h3 >Report Generator for {{ hmc_obj.name }}</h3>
+                </header>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5 bound_box">
+                    <div class="table-responsive">
+                      <table class="table">
+                          <thead>
+                              <th>Managed System</th>
+                              <th># Active LPAR's</th>
+                              <th># Active VIOS</th>
+                          </thead>
+                          <tbody>
+                            {% for ms in ms_list %}
+                              <tr>
+                                <td>{{ ms.name }}</td>
+                                <td>{{ ms.lpar_count }}</td>
+                                <td>{{ ms.vios_count }}</td>
+                              </tr>
+                            {% endfor %}
+                          </tbody>
+                      </table>
+                    </div>
+
+                </div>
+                <div class="col-md-5 bound_box">
+                    <form action="#" method="get">
+                        <input type="hidden" value="{{ hmc_obj.name }}" name="hmc_name">
+                        <input class="btn btn-primary btn-sep" type="submit" value="Generate report" name="download_report">
+                    </form>
+
+                    <form action="#" method="get">
+                        <input type="hidden" value="{{ hmc_obj.name }}" name="hmc_name">
+                        <input class="btn btn-primary btn-sep" type="submit" value="Update DB " name="update_records">
+                    </form>
+                    <div id="success-message" style="display:none"> DB update successful </div>
+                    <div id="fail-message" style="display:none"> Bad Credentials or connection problem </div>
+
+                    <a href="/index" class="btn btn-primary glyphicon glyphicon-home" style="color: white"></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+    </body>
+</html>
