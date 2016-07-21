@@ -148,7 +148,7 @@ def popullate_database( name, ip, x_api_session ):
                 if lpar_cpu:
                     uuidMS = j.AssociatedManagedSystem.href.split('/')
                     print(uuidMS)
-                    LogicalPartition.objects.update_or_create(id=j.PartitionUUID.value() + "-" + uuidMS[len(uuidMS) - 1],
+                    VirtualIOServer.objects.update_or_create(id=j.PartitionUUID.value() + "-" + uuidMS[len(uuidMS) - 1],
                                                               name=j.PartitionName.value(),
                                                               type=j.PartitionType.value(),
                                                               state=j.PartitionState.value(),
@@ -169,7 +169,7 @@ def popullate_database( name, ip, x_api_session ):
                 else:
                     uuidMS = j.AssociatedManagedSystem.href.split('/')
                     # print(uuidMS)
-                    LogicalPartition.objects.update_or_create(id=j.PartitionUUID.value() + "-" + uuidMS[len(uuidMS) - 1],
+                    VirtualIOServer.objects.update_or_create(id=j.PartitionUUID.value() + "-" + uuidMS[len(uuidMS) - 1],
                                                               name=j.PartitionName.value(),
                                                               type=j.PartitionType.value(),
                                                               state=j.PartitionState.value(),

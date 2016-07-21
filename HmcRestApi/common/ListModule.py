@@ -69,5 +69,5 @@ class ListModule:
                     xmlstring = etree.tostring(entry)
                     xml_object = UOM.CreateFromDocument(xmlstring)
                     obj_list.append(xml_object)
-            
+
             return obj_list
