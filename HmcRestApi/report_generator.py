@@ -76,18 +76,7 @@ def sync_database( credentials ):
 
 
 def popullate_database( name, ip, x_api_session ):
-    #db = SqliteDatabase('/home/afcastel/database.sql')
-    #db.connect()
-    if not ManagedSystem.table_exists():
-        ManagedSystem.create_table()
-    else:
-        ManagedSystem.drop_table()
-        ManagedSystem.create_table()
-    if not LogicalPartition.table_exists():
-        LogicalPartition.create_table()
-    else:
-        LogicalPartition.drop_table()
-        LogicalPartition.create_table()
+
     managedsystem_object = ListManagedSystem.ListManagedSystem()
     object_list = managedsystem_object.list_ManagedSystem(ip, x_api_session)
     print( object_list )
