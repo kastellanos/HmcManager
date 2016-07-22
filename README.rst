@@ -24,28 +24,28 @@ Requirements:
 
             Used for interface the HmcRestApi implementation with a Web view.
 
-        django-crispy-forms>=1.6.0
+	    django-crispy-forms>=1.6.0
 
             Used to beautify Django forms
 
-        numpy>=1.11.1
+	    numpy>=1.11.1
 
             Requested by pandas
 
-        pandas>=0.18.1
+	    pandas>=0.18.1
 
             Proccess and generate report.
 
-        XlsxWriter >= 0.9.3
+	    XlsxWriter >= 0.9.3
 
             Convert pandas report to Excel.
 
-		Requests version >= 2.10.0
+	    Requests version >= 2.10.0
 			https://pypi.python.org/pypi/requests
 
 			Used for processing HTTP requests and responses from the HMC.
 
-		PyXB version = 1.2.4
+	    PyXB version = 1.2.4
 			https://pypi.python.org/pypi/PyXB/
 
 			Used for generating Python source code from HMC XSDs. The generated source code is used for processing UOM and PCM objects. If you upgrade HMC and if there is new schema version from HMC you may need to regenerate the source code to make it compatible with new version.
@@ -54,7 +54,7 @@ Requirements:
 
 			Command to generate source code for PCM objects: ``python pyxbgen -u [ManagedSystemPcmPreference.xsd] -m [Output python file name e.g. ManagedSystemPcmPreferences]``
 
-		feedparser version >= 5.2.1
+	    feedparser version >= 5.2.1
 			https://pypi.python.org/pypi/feedparser
 
 			Used for processing Atom feed from the HMC.
