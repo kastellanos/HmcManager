@@ -20,23 +20,23 @@ Requirements:
 	Python Version >= 3.5.2
 
 	**Python Libraries:**
-	    Django>=1.9.7
+	    Django version >= 1.9.7
 
             Used for interface the HmcRestApi implementation with a Web view.
 
-	    django-crispy-forms>=1.6.0
+	    django-crispy-forms version >= 1.6.0
 
             Used to beautify Django forms
 
-	    numpy>=1.11.1
+	    numpy version >= 1.11.1
 
             Requested by pandas
 
-	    pandas>=0.18.1
+	    pandas version >= 0.18.1
 
             Proccess and generate report.
 
-	    XlsxWriter >= 0.9.3
+	    XlsxWriter version >= 0.9.3
 
             Convert pandas report to Excel.
 
