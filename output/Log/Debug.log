@@ -3,3 +3,176 @@
 07/20/2016 11:47:43 PM - DEBUG - HmcRestApi.login_credentials.LogonRequest -  Invalid IP Address or Connection Error
 07/20/2016 11:51:37 PM - DEBUG - HmcRestApi.login_credentials.LogonRequest -  Invalid IP Address or Connection Error
 07/20/2016 11:57:03 PM - DEBUG - HmcRestApi.login_credentials.LogonRequest -  Invalid IP Address or Connection Error
+07/21/2016 09:41:51 PM - DEBUG - HmcRestApi.login_credentials.LogonRequest -  Logon successful
+07/21/2016 09:47:21 PM - DEBUG - HmcRestApi.login_credentials.LogonRequest -  Logon successful
+07/21/2016 09:48:33 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 09:48:37 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 09:48:37 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 09:48:43 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 09:48:44 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 09:49:11 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 09:49:11 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 09:49:34 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 09:49:43 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 09:49:46 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 09:49:46 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 09:49:47 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 09:49:48 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 09:49:48 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 09:49:48 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 09:49:49 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 09:49:50 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 09:49:50 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 09:49:50 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 09:49:51 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 09:49:51 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 09:49:55 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 09:49:55 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 09:50:01 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 09:50:03 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 09:50:14 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 09:50:14 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 09:50:25 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 09:50:29 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 09:50:45 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 09:50:45 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 09:50:55 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 09:51:01 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 09:51:02 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 09:51:02 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 09:51:06 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 09:51:06 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 09:51:06 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 09:51:06 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 09:51:07 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 09:51:08 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 09:51:10 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 09:51:10 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 09:51:16 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 09:58:51 PM - DEBUG - HmcRestApi.login_credentials.LogonRequest -  Logon successful
+07/21/2016 09:59:47 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 09:59:49 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 09:59:49 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 09:59:55 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 09:59:56 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:00:04 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:00:04 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:00:25 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:00:35 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:00:36 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:00:36 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:00:37 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:00:38 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:00:38 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:00:38 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:00:39 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:00:39 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:00:39 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:00:39 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:00:40 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:00:41 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:00:42 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:00:42 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:00:48 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:00:50 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:00:53 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:00:53 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:01:03 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:01:07 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:01:12 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:01:12 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:01:23 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:01:29 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:01:29 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:01:29 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:01:33 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:01:33 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:01:33 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:01:33 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:01:34 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:01:35 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:01:36 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:01:36 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:01:40 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:34:44 PM - DEBUG - HmcRestApi.login_credentials.LogonRequest -  Logon successful
+07/21/2016 10:35:47 PM - DEBUG - HmcRestApi.login_credentials.LogonRequest -  Logon successful
+07/21/2016 10:36:46 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:36:48 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:36:48 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:36:53 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:36:55 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:37:03 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:37:03 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:37:23 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:37:32 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:37:33 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:37:33 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:37:34 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:37:35 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:37:35 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:37:35 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:37:35 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:37:36 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:37:36 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:37:36 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:37:37 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:37:37 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:37:39 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:37:39 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:37:44 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:37:46 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:37:49 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:37:49 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:38:00 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:38:04 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:38:08 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:38:08 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:38:31 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:38:36 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:38:37 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:38:37 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:38:41 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:38:41 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:38:41 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:38:41 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:38:42 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:38:42 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:38:44 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:38:44 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:38:49 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:42:13 PM - DEBUG - HmcRestApi.login_credentials.LogonRequest -  Logon successful
+07/21/2016 10:43:37 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:43:44 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:43:44 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:43:51 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:43:56 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:43:58 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:43:58 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:44:03 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:44:05 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:44:06 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:44:06 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:44:06 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:44:07 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:44:12 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:44:12 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:44:21 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:44:24 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:44:36 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:44:36 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:44:51 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:44:59 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:44:59 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:44:59 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:45:05 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:45:05 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:45:16 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:45:16 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:45:29 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:45:37 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:45:38 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:45:38 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started
+07/21/2016 10:45:39 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  Returns VirtualIOServer objectsto the main module
+07/21/2016 10:45:39 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  list of Lpar started
+07/21/2016 10:45:55 PM - DEBUG - HmcRestApi.logical_partition.ListLogicalPartition -  Returns Logical Partition objects to the main module
+07/21/2016 10:45:55 PM - DEBUG - HmcRestApi.virtual_io_server.ListVirtualIOServer -  List of VIOS started

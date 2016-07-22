@@ -26,3 +26,22 @@ header{
     margin-top: 2em;
     padding-bottom: 2em;
 }
+
+#fail-message{
+    display:none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#success-message{
+    display:none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    padding: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

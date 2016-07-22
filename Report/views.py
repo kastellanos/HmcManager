@@ -7,8 +7,8 @@ from django.shortcuts import render_to_response
 from HmcRestApi.report_generator import generate_report,sync_database
 # Create your views here.
 def index(request):
-    print( request.method )
-    if request.method == 'POST':
+    #print( request.method )
+    if request.method == 'POST' :
         f = HMCForm(request.POST)
         f.save()
 
@@ -33,32 +33,51 @@ class ManagedSystemFeatures(object):
 
 def get_hmc_list( name ):
     ms_obj_list = ManagedSystem.objects.filter(associated_hmc=name)
-    print("N° Managed Systems: ", len(ms_obj_list))
+    #print("N° Managed Systems: ", len(ms_obj_list))
     ms_list = []
     for i in ms_obj_list:
         tmp = ManagedSystemFeatures(i.name)
         lpar_tmp = LogicalPartition.objects.filter(associated_managed_system=i.id)
-        print("N° LPARs: ", len(lpar_tmp))
+        #print("N° LPARs: ", len(lpar_tmp))
         vios_tmp = VirtualIOServer.objects.filter(associated_managed_system=i.id)
-        print("N° VIOS's: ", len(vios_tmp))
+        #print("N° VIOS's: ", len(vios_tmp))
         tmp.process_data(lpar_tmp, vios_tmp)
         ms_list.append(tmp)
     return ms_list
 
 def hmc_report(request):
-    print(request.method)
-    if request.method == 'POST':
+    #print(request.method)
+
+    if request.method == 'POST' and 'Select' in request.POST['submit']:
         info = request.POST
         hmc_list = HardwareManagementConsole.objects.all()
         hmc_obj = hmc_list[int(info['field'])]
         ms_list = get_hmc_list(hmc_obj.name)
         return render(request, 'Report/hmc_report.html', {'hmc_obj': hmc_obj, 'ms_list': ms_list,'net_status':0})
+    elif request.method == 'POST' and 'Remove' in request.POST['submit']:
+        info = request.POST
+        hmc_list = HardwareManagementConsole.objects.all()
+        hmc_obj = hmc_list[int(info['field'])]
+        ms_list = ManagedSystem.objects.filter(associated_hmc=hmc_obj.name)
+        for i in ms_list:
+            LogicalPartition.objects.filter(associated_managed_system=i.id).delete()
+            VirtualIOServer.objects.filter(associated_managed_system=i.id).delete()
+        ManagedSystem.objects.filter(associated_hmc=hmc_obj.name).delete()
+        HardwareManagementConsole.objects.filter(name=hmc_obj.name).delete()
+        request.method = 'GET'
+        return index(request)
     elif request.method == 'GET':
+        #
+        #
+        #
+        #AARREGGGLAARRRR
+        #
+        #
         print(request.GET['hmc_name'])
 
         if 'download_report' in request.GET:
             #generate_report()
-            print( generate_report(request.GET['hmc_name']))
+            #print( generate_report(request.GET['hmc_name']))
             outContent = generate_report(request.GET['hmc_name'])
             excelname = request.GET['hmc_name']+"_report.xlsx"
 

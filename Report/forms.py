@@ -31,6 +31,7 @@ class HMCForm(ModelForm):
             'password',
             # this is how to add the submit button to your form and since it is the last item in this tuple, it will be rendered last in the HTML
             Submit('submit', u'Add', css_class='btn btn-success'),
+
         )
 
 
@@ -49,13 +50,14 @@ class HMCSelectForm(forms.Form):
     def __init__(self,*args ,**kargs):
         super(HMCSelectForm, self).__init__(*args, **kargs)
         self.fields['field'].choices = update_select()
-        print("I start when the camapnas suenan")
+        
         self.helper = FormHelper()
         self.helper.form_show_labels = False
         self.helper.form_action = '/hmc_report/'
         self.helper.layout = Layout(
             'field',
             Submit('submit', u'Select', css_class='btn btn-success'),
+            Submit('submit', u'Remove', css_class='btn btn-success'),
         )
 
 

@@ -54,7 +54,7 @@ def generate_report( name ):
 
 
 def extract_client(lpar):
-    domain_list = ["co", "com", "local","org"]
+    domain_list = ["co", "com", "local","org","c"]
     name = None
     for i in lpar.name.split(".")[1:]:
         if i.strip() not in domain_list:
@@ -62,7 +62,7 @@ def extract_client(lpar):
     return name if name is not None else "No client"
 
 def sync_database( credentials ):
-    print("entered")
+    #print("entered")
     logon_obj = LogonRequest.Logon()
     resource_obj = logon_obj.LogonRequest(credentials.ip, credentials.username, credentials.password)
     if resource_obj is None:
@@ -70,17 +70,23 @@ def sync_database( credentials ):
     else:
         ip_temp = resource_obj[0]
         x_api_session = resource_obj[1]
+        drop_database( credentials.name )
         popullate_database(credentials.name, ip_temp, x_api_session)
         return True
-    print("exited")
+    #print("exited")
 
-
+def drop_database( hmc_name ):
+    for i in ManagedSystem.objects.filter(associated_hmc=hmc_name):
+        LogicalPartition.objects.filter(associated_managed_system=i.id)
+        VirtualIOServer.objects.filter(associated_managed_system=i.id)
+    ManagedSystem.objects.filter(associated_hmc=hmc_name).delete()
+    
 def popullate_database( name, ip, x_api_session ):
 
     managedsystem_object = ListManagedSystem.ListManagedSystem()
     object_list = managedsystem_object.list_ManagedSystem(ip, x_api_session)
-    print( object_list )
-    print("Start object list")
+    #print( object_list )
+    #print("Start object list")
     for i in range(0, len(object_list)):
 
         ManagedSystem.objects.update_or_create(id=object_list[i].Metadata.Atom.AtomID.value(),
@@ -102,7 +108,7 @@ def popullate_database( name, ip, x_api_session ):
                 lpar_cpu = j.PartitionProcessorConfiguration.HasDedicatedProcessors.value()
                 if lpar_cpu:
                     uuidMS = j.AssociatedManagedSystem.href.split('/')
-                    print( uuidMS)
+                    #print( uuidMS)
                     LogicalPartition.objects.update_or_create(id=j.PartitionUUID.value()+"-"+uuidMS[len(uuidMS)-1],
                                             name=j.PartitionName.value(),
                                             type=j.PartitionType.value(),
@@ -123,7 +129,7 @@ def popullate_database( name, ip, x_api_session ):
 
                 else:
                     uuidMS = j.AssociatedManagedSystem.href.split('/')
-                    #print(uuidMS)
+                    ##print(uuidMS)
                     LogicalPartition.objects.update_or_create(id=j.PartitionUUID.value()+"-"+uuidMS[len(uuidMS)-1],
                                             name=j.PartitionName.value(),
                                             type=j.PartitionType.value(),
@@ -147,7 +153,7 @@ def popullate_database( name, ip, x_api_session ):
                 lpar_cpu = j.PartitionProcessorConfiguration.HasDedicatedProcessors.value()
                 if lpar_cpu:
                     uuidMS = j.AssociatedManagedSystem.href.split('/')
-                    print(uuidMS)
+                    #print(uuidMS)
                     VirtualIOServer.objects.update_or_create(id=j.PartitionUUID.value() + "-" + uuidMS[len(uuidMS) - 1],
                                                               name=j.PartitionName.value(),
                                                               type=j.PartitionType.value(),
@@ -168,7 +174,7 @@ def popullate_database( name, ip, x_api_session ):
 
                 else:
                     uuidMS = j.AssociatedManagedSystem.href.split('/')
-                    # print(uuidMS)
+                    # #print(uuidMS)
                     VirtualIOServer.objects.update_or_create(id=j.PartitionUUID.value() + "-" + uuidMS[len(uuidMS) - 1],
                                                               name=j.PartitionName.value(),
                                                               type=j.PartitionType.value(),
@@ -189,8 +195,8 @@ def popullate_database( name, ip, x_api_session ):
 
     """
     for i in ManagedSystem.select():
-        print(i.name,i.id)
+        #print(i.name,i.id)
 
     for i in LogicalPartition.select():
-        print(i.name, i.associated_managed_system)
+        #print(i.name, i.associated_managed_system)
     """

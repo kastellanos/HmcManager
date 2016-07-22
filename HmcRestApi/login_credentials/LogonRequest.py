@@ -99,14 +99,14 @@ class Logon(object):
                 if not request_object.response_b:
                     # RESPONSE MESSAGE FOR INVALID CREDENTIALS AND ASKS CLIENT TO ENTER AGAIN
                     print("\nEnter correct Credentials\n")
-                    log.log_debug("Enter correct Credentials")
+#                    log.log_debug("Enter correct Credentials")
                 else:
                     x_api_session = get_x_api_session((request_object.response).content)
                     log.log_debug("Logon successful")
                     return (ip, name, username, password, x_api_session)
             except Exception:
                 print("\nInvalid IP Address or Connection Error\n")
-                log.log_debug("Invalid IP Address or Connection Error")
+#                log.log_debug("Invalid IP Address or Connection Error")
 
     def LogonRequest(self, ip=None, username=None, password=None):
         """
@@ -133,24 +133,24 @@ class Logon(object):
         self.service = 'web'
         self.content_type = "application/vnd.ibm.powervm.web+xml"
         try:
-            print("try something",self.service,ip,self.root)
+            #print("try something",self.service,ip,self.root)
 
             request_object = HTTPClient.HTTPClient(self.service, ip,
                                                    self.root, self.content_type)
             # CALLS HTTPPUT METHOD TO PERFORM LOGON WITH LOGONREQUEST AS CONTENT_TYPE
             request_object.HTTPPut(self.logonrequest_payload)
-            print("try something step2")
+#            print("try something step2")
             if not request_object.response_b:
                 # RESPONSE MESSAGE FOR INVALID CREDENTIALS AND ASKS CLIENT TO ENTER AGAIN
                 print("\nEnter correct Credentials\n")
-                log.log_debug("Enter correct Credentials")
+ #               log.log_debug("Enter correct Credentials")
             else:
                 x_api_session = get_x_api_session((request_object.response).content)
                 log.log_debug("Logon successful")
                 return (ip, x_api_session)
         except Exception:
             print("\nInvalid IP Address or Connection Error\n")
-            log.log_debug("Invalid IP Address or Connection Error")
+  #          log.log_debug("Invalid IP Address or Connection Error")
 
 
 
