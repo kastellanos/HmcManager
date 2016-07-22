@@ -61,7 +61,7 @@ Requirements:
 
 Execution:
 ----------
-    You need flush the DB before start django server in debug mode.
+    You need flush the DB before start django server in debug mode to run without corrupted DB.
 
     ``python manage.py flush``
 
